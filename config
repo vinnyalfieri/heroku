@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:vinnyalfieri/rails-heroku-deployment-web-0615.git
+	fetch = +refs/*:refs/*
+	mirror = true
+	pushurl = git@github.com:vinnyalfieri/rails-heroku-deployment-web-0615.git/mirrored
